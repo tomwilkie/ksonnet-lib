@@ -7484,7 +7484,7 @@
       },
     },
     v1beta1:: {
-      local apiVersion = {apiVersion: "rbac/v1beta1"},
+      local apiVersion = {apiVersion: "rbac.authorization.k8s.io/v1beta1"},
       // ClusterRole is a cluster level, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding or ClusterRoleBinding.
       clusterRole:: {
         local kind = {kind: "ClusterRole"},
